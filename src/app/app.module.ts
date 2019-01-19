@@ -28,6 +28,7 @@ import { FooterComponent } from './Model/footer/footer.component';
 import { ServicesComponent } from './Model/others/services/services.component';
 import { WhyChooseUsComponent } from './Model/others/why-choose-us/why-choose-us.component';
 import { ShareComponent } from './Model/others/share/share.component';
+import { MessageUsComponent } from './Model/others/message-us/message-us.component';
 
 @NgModule({
   declarations: [
@@ -53,6 +54,7 @@ import { ShareComponent } from './Model/others/share/share.component';
     ServicesComponent,
     WhyChooseUsComponent,
     ShareComponent,
+    MessageUsComponent,
 
   ],
   imports: [
