@@ -24,6 +24,8 @@ import { BusinessCardsComponent } from './Model/Graphic-Design/business-cards/bu
 import { PhotographyComponent } from './Model/Graphic-Design/photography/photography.component';
 import { GoogleBusinessComponent } from './Model/Digital-Marketing/google-business/google-business.component';
 import { AdvertsComponent } from './Model/Digital-Marketing/adverts/adverts.component';
+import { FooterComponent } from './Model/footer/footer.component';
+import { ServicesComponent } from './Model/others/services/services.component';
 
 @NgModule({
   declarations: [
@@ -45,6 +47,8 @@ import { AdvertsComponent } from './Model/Digital-Marketing/adverts/adverts.comp
     PhotographyComponent,
     GoogleBusinessComponent,
     AdvertsComponent,
+    FooterComponent,
+    ServicesComponent,
 
   ],
   imports: [
