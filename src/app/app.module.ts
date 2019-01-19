@@ -29,6 +29,7 @@ import { ServicesComponent } from './Model/others/services/services.component';
 import { WhyChooseUsComponent } from './Model/others/why-choose-us/why-choose-us.component';
 import { ShareComponent } from './Model/others/share/share.component';
 import { MessageUsComponent } from './Model/others/message-us/message-us.component';
+import { ContactComponent } from './Model/others/contact/contact.component';
 
 @NgModule({
   declarations: [
@@ -55,6 +56,7 @@ import { MessageUsComponent } from './Model/others/message-us/message-us.compone
     WhyChooseUsComponent,
     ShareComponent,
     MessageUsComponent,
+    ContactComponent,
 
   ],
   imports: [
