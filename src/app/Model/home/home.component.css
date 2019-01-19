@@ -1,0 +1,7 @@
+.example-header-image{
+ background-image: url('.//../../../assets/images/run1.jpg');
+ background-repeat:no-repeat;
+ background-size:100% 100%;
+ background-position:center;
+ 
+}

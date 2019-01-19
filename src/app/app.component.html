@@ -1,18 +1,59 @@
+<div fxLayout="row">
+  <img src="assets/images/logo.PNG" alt="" style="width:100px; height:100px; border-radius: 100px; ">
 
-  <div fxLayout="row">
-    <img src="assets/images/logo.PNG" alt="" style="width:100px; height:100px; border-radius: 100px; ">
+
+  <span fxFlex></span>
+  <div></div>
+  <div fxLayout.xs="column" class="top-space">
+    <button mat-button>Home</button>
+    <button mat-button>We Offer</button>
+    <button mat-button>our works</button>
+    <button mat-button>our clients</button>
+    <button mat-button>About</button>
+    <button mat-button>Contact</button>
+    <button mat-button [matMenuTriggerFor]="blog">Blog</button>
+
+    <mat-menu #blog="matMenu">
+      <button mat-menu-item [matMenuTriggerFor]="software">Software Solutions</button>
+      <button mat-menu-item [matMenuTriggerFor]="GraphicDesign">Graphic Design</button>
+      <button mat-menu-item [matMenuTriggerFor]="DigitalMarketing">Digital Marketing</button>
+      <button mat-menu-item>General</button>
+    </mat-menu>
+
+    <mat-menu #software="matMenu">
+      <button mat-menu-item [matMenuTriggerFor]="websites">Professional Websites</button>
+      <button mat-menu-item>Mobile Application</button>
+   <button mat-menu-item>Desktop Applicatiioin</button>
+    </mat-menu>
+
+    <mat-menu #GraphicDesign="matMenu">
+      <button mat-menu-item>Logos</button>
+      <button mat-menu-item>Animations</button>
+      <button mat-menu-item> Business card </button>
+      <button mat-menu-item>Photography</button>
+    </mat-menu>
+
+    <mat-menu #websites="matMenu">
+      <button mat-menu-item>E-commerce Websites</button>
+      <button mat-menu-item>Personal Websites</button>
+      <button mat-menu-item>Political Sites</button>
+      <button mat-menu-item>News Websites</button>
+      <button mat-menu-item>Corporate Websites</button>
+      <button mat-menu-item>Consultation Websites</button>
+      <button mat-menu-item>Online Payment Websites</button>
+      <button mat-menu-item>Writers/Authors Websites</button>
+      <button mat-menu-item>Community Building Websites</button>
+
+    </mat-menu>
+
+    <mat-menu #DigitalMarketing="matMenu">
+      <button mat-menu-item>Google Business</button>
+      <button mat-menu-item>Adverts</button>
+    </mat-menu>
 
    
-    <span fxFlex></span>
-    <div></div>
-    <div fxLayout.xs="column" class="top-space">
-        <button mat-button>Home</button>
-        <button  mat-button>We Offer</button>
-        <button  mat-button>About</button>
-        <button  mat-button>Contact</button>
-        <button  mat-button>Pages</button>
-    </div>
- 
+  </div>
+
 </div>
 <div>
   <app-home></app-home>
