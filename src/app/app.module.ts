@@ -26,6 +26,8 @@ import { GoogleBusinessComponent } from './Model/Digital-Marketing/google-busine
 import { AdvertsComponent } from './Model/Digital-Marketing/adverts/adverts.component';
 import { FooterComponent } from './Model/footer/footer.component';
 import { ServicesComponent } from './Model/others/services/services.component';
+import { WhyChooseUsComponent } from './Model/others/why-choose-us/why-choose-us.component';
+import { ShareComponent } from './Model/others/share/share.component';
 
 @NgModule({
   declarations: [
@@ -49,6 +51,8 @@ import { ServicesComponent } from './Model/others/services/services.component';
     AdvertsComponent,
     FooterComponent,
     ServicesComponent,
+    WhyChooseUsComponent,
+    ShareComponent,
 
   ],
   imports: [

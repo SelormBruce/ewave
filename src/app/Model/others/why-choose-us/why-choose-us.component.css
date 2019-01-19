@@ -1,0 +1,14 @@
+
+.example-header-image {
+ background-image: url('https://ak6.picdn.net/shutterstock/videos/13468226/thumb/4.jpg');
+ background-size: cover;
+}
+.example-header-image1 {
+ background-image: url('https://ak6.picdn.net/shutterstock/videos/19067686/thumb/8.jpg');
+ background-size: cover;
+}
+
+div {
+ text-align: justify;
+ text-justify: inter-word;
+}
