@@ -30,6 +30,11 @@ import { WhyChooseUsComponent } from './Model/others/why-choose-us/why-choose-us
 import { ShareComponent } from './Model/others/share/share.component';
 import { MessageUsComponent } from './Model/others/message-us/message-us.component';
 import { ContactComponent } from './Model/others/contact/contact.component';
+import { EmailUsDataComponent } from './Data/email-us-data/email-us-data.component';
+import { SupportTeamComponent } from './Support/support-team/support-team.component';
+import { TacticalTeamComponent } from './Tactical/tactical-team/tactical-team.component';
+import { StratagicTeamComponent } from './Stratagic/stratagic-team/stratagic-team.component';
+import { AdministrativeDashbordComponent } from './Admin/administrative-dashbord/administrative-dashbord.component';
 
 @NgModule({
   declarations: [
@@ -57,6 +62,11 @@ import { ContactComponent } from './Model/others/contact/contact.component';
     ShareComponent,
     MessageUsComponent,
     ContactComponent,
+    EmailUsDataComponent,
+    SupportTeamComponent,
+    TacticalTeamComponent,
+    StratagicTeamComponent,
+    AdministrativeDashbordComponent,
 
   ],
   imports: [
